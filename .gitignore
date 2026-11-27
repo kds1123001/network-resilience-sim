@@ -1,0 +1,44 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Packaging & distribution builds
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Compiled native C shared libraries & staged package artifacts
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.exp
+*.lib
+src/netsim/native/
+
+# Generated simulation charts & report outputs
+*.png
+*.csv
+report*.json
+*report.json
+smart_c_*.json
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
