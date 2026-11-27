@@ -32,6 +32,7 @@ src/netsim/native/
 
 # Generated simulation charts & report outputs
 *.png
+!docs/charts/*.png
 *.csv
 report*.json
 *report.json
