@@ -32,3 +32,4 @@ network-resilience-sim/
 ## Performance & Benchmarks
 
 ![Arrival latency and throughput results from the native C simulation engine](docs/charts/smart_c_arrival.png)
+ 
